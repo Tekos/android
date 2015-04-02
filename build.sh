@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
-echo Welcome to the Resurrection Remix Build Wizard!
-echo This Wizard will be helping you to build ROMs for your device from Resurrection Remix
+echo Welcome to the TekOS build helper - Chao mung den voi TekOS build helper!
+echo This Wizard will be helping you to build ROMs for your device from TekOS
 echo Do note that for EVERYTHING you type, you are required to type in LOWER CASE
 echo If they are not, you may expereince some errors along the way
 sleep 10
@@ -47,7 +47,7 @@ clear
     repo sync -j6
 clear
 echo Device Specific Source has been Downloaded and Ready to be utilized!
-echo Do you want to build Resurrection Remix for $device now? Type 1 or 0 
+echo Do you want to build TekOS for $device now? Type 1 or 0 
 read ch
 if [ $ch -eq 1 ] ; then
         echo Building for $device in 5 seconds...
@@ -61,8 +61,8 @@ if [ $ch -eq 1 ] ; then
         echo Building for $device in 1 seconds...
         brunch $device
 clear
-echo Resurrection Remix has been built succesfully! The ROM can be found in the out/product/$device folder!
-echo Exiting the Resurrection Remix Build Wizard in 10 seconds!
+echo TekOS has been built succesfully! The ROM can be found in the out/product/$device folder!
+echo Exiting the TekOS Build Wizard in 10 seconds!
 echo To cancel, Press CTRL + C
     sleep 10
     exit
@@ -78,7 +78,7 @@ clear
 sleep 3
     echo     
     echo     
-                echo Exiting the Resurrection Remix Build Wizard in 10 seconds!
+                echo Exiting the TekOS Build Wizard in 10 seconds!
                 echo To exit immediately, Press CTRL + C
                 sleep 10
     exit

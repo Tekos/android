@@ -47,8 +47,8 @@ public String device()
 String r="",name="",Vendor="",vendor="",gituser="",branch="";
 System.out.println("Enter device name, followed by vendor name." +
 "\nIf Samsung, then enter samsung. If lg,then lge. Check on github.com/TheMuppets.\n"+
-"Then enter the github account where the repository exists, for example cyanogenmod, or westcripp.\n"+
-"Then enter the revision, for example cm-12.0, or lp");
+"Then enter the github account where the repository exists, for example cyanogenmod, or tekos.\n"+
+"Then enter the revision, for example cm-12.0, or tekos5.1");
 try
 {
 name=stdin.readLine();
